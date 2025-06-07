@@ -13,7 +13,7 @@ jobs:
   claude:
     runs-on: ubuntu-latest
     steps:
-      - uses: anthropics/claude-code-action@v1
+      - uses: anthropics/claude-github-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           claude_access_token: ${{ secrets.CLAUDE_ACCESS_TOKEN }}
